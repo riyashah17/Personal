@@ -7,7 +7,29 @@
 //     font-weight: bold;
 //     // vertical-align: middle;s
 // }
+@import 'variables';
+@import '../node_modules/font-awesome/scss/font-awesome';
+
+@mixin margin($pad-up-down, $pad-left-right) {
+    // margin: 0px auto;
+    margin: $pad-up-down $pad-left-right;
+}
 
 body{
-    background-color: #5c0120;
+    background-color: #5b1a30;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.flex-spacer {
+    flex: 1 1 auto;
+}
+
+.toolbar {
+    background-color: transparent;
+}
+
+.button {
+    @include margin(70px, 25px);
+}
+

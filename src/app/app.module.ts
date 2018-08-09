@@ -9,11 +9,13 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import 'hammerjs';
 import { HomeComponent } from './home/home.component';
 import { ParticlesModule } from 'angular-particle';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
