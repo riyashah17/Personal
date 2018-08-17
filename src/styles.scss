@@ -25,11 +25,14 @@ body{
     flex: 1 1 auto;
 }
 
-.toolbar {
-    background-color: transparent;
-}
+// .toolbar {
+//     background-color: transparent;
+// }
 
 .button {
     @include margin(70px, 25px);
+    z-index: 100;
+    color: white;
+    text-decoration: none;
 }
 
